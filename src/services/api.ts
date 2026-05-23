@@ -40,7 +40,8 @@ api.interceptors.response.use(
         const refreshToken = localStorage.getItem("refreshToken");
         // Naya access token lo
         const response = await axios.post(
-          "http://localhost:5000/api/auth/refresh-token",
+         // "http://localhost:5000/api/auth/refresh-token",
+         "https://doctor-booking-api-zeta.vercel.app/",
           { refreshToken }
         );
 
