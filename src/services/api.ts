@@ -4,7 +4,7 @@ import axios from "axios";
 // Ab har jagah sirf /api/auth/login likhna hoga
 // http://localhost:5000 automatically lagega
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL:  "https://doctor-booking-api-zeta.vercel.app/",
   headers: {
     "Content-Type": "application/json",
   },
